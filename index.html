@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="first-section">
+        <div class="top-text">
+            <p>Welcome to the resource website!</p>
+        </div>
+
+        <div class="button-container">
+            <button type="button" class="btn" id="btn">Create a resource</button>
+        </div>
+    </div>
+
+    <div class="resource-container">
+        <!-- <div class="resource">
+            <div class="website-name">
+                <a href="#" target="_blank">Website name</a>
+                <i class='bx bxs-trash'></i>
+            </div>
+
+            <div class="website-description">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, ipsa eos unde reprehenderit corrupti nesciunt iure.</p>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, reprehenderit deleniti! Assumenda nam et illo repudiandae eum, id sequi in.
+    </p> -->
+
+    <div class="overlay">
+        <div class="modal">
+            <div class="remove-icon">
+                <i class='bx bx-x' id="removeIcon"></i>
+            </div>
+
+            <div class="modal-title">
+                <h3>Create Resource</h3>
+            </div>
+
+            <div class="modal-form">
+                <form action="" id="resourceForm">
+                    <div class="label-input">
+                        <label for="websiteName">Website name</label>
+                        <input type="text" name="websiteName" id="websiteName" placeholder="e.g. data analysis website for nasa">
+                    </div>
+
+                    <div class="label-input">
+                        <label for="websiteURL">Website URL</label>
+                        <input type="text" name="websiteURL" id="websiteURL" placeholder="e.g. https://www.example.com">
+                    </div>
+
+                    <div class="label-input">
+                        <label for="websiteDescription">Website description</label>
+                        <textarea name="description" id="websiteDescription" placeholder="Enter description" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn2" id="btn">Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
